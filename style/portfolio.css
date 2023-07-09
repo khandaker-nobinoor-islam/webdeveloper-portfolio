@@ -8,7 +8,7 @@ body{
 }
 .btn-primary{
     border-radius: 5px;
-    background: #FD6E0A;
+    background: #fd0aa8;
     color: white;
     font-size: 20px;
     border: 0;
@@ -39,6 +39,9 @@ nav{
     margin: 0 200px;
 }
 
+#name{
+    font-size: 40px;
+}
 .nav{
     color: #181818;
     font-size: 45px;
