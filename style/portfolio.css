@@ -191,3 +191,39 @@ footer{
 .social-links a{
     margin-right: 25px;
 }
+
+/* responsive style */
+
+/* mobile drive */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container, .footer-res, .about-info-container, .banner, .nav-res{
+        flex-direction: column;
+    }
+    #what-i-do-description{
+        padding: 20px;
+    }
+    .footer-res, .about{
+        padding: 10px;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"],.contact input[type="email"], textarea{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .skills-container, .resume-container{
+        flex-direction: column;
+    }
+    .footer-res{
+        padding: 30px;
+    }
+}
